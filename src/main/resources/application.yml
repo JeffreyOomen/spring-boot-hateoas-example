@@ -1,0 +1,10 @@
+spring:
+    datasource:
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/hateoas-example
+        username: root
+        password:
+
+    jpa:
+        hibernate:
+          ddl-auto: create-drop
